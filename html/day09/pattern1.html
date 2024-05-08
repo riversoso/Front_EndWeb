@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pattern1</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        body {
+            width: 960px;
+            margin: 0 auto;
+            overflow: hidden;
+        }
+        #menu {
+            width: 260px;
+            float: left;
+        }
+        #section {
+            width: 700px;
+            float: left;
+        }
+        @media screen and(max-width: 767px) {
+            body {width: auto;}
+            #menu {width: auto; float: none;}
+            #section {width: auto; float: none;}
+        }
+    </style>
+</head>
+<body>
+    <div id="menu">
+        <ul>
+            <li>메뉴 A</li>
+            <li>메뉴 B</li>
+            <li>메뉴 C</li>
+            <li>메뉴 D</li>
+        </ul>
+    </div>
+    <div id="section">
+    <h1>Lorem ipsum dolor sit amet consectetur adipisicing elit.</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+        Possimus obcaecati est iusto aut, asperiores quibusdam quidem enim odio tenetur,
+        exercitationem consectetur iure ad temporibus numquam voluptatum autem vitae reprehenderit! Enim.
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+        Possimus obcaecati est iusto aut, asperiores quibusdam quidem enim odio tenetur,
+        exercitationem consectetur iure ad temporibus numquam voluptatum autem vitae reprehenderit! Enim.
+    </p>
+    </div>
+</body>
+</html>
